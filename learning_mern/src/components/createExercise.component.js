@@ -25,6 +25,12 @@ class CreateExercise extends Component {
         this.setState({date: newDate})
     }
 
+    onSubmit(e) {
+        e.preventDefault();     //  Prevent the execution of the default HTML form submit behaviour.
+
+        //const exercise
+    }
+
     
     render() { 
         return ( <p>Create Exercise</p> );
