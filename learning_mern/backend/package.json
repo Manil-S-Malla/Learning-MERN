@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend of a simple MERN app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "MERN",
+    "Mongo",
+    "Express",
+    "React",
+    "Node",
+    "Basic"
+  ],
+  "author": "Manil S. Malla",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2"
+  }
+}
