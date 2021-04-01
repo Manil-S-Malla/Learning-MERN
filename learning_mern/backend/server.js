@@ -11,7 +11,7 @@ const usersRouter = require('./routes/users');
 
 //  Creating Express Server
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 //  Connect to MongoDB database.
 const URI = process.env.ATLAS_URI;
